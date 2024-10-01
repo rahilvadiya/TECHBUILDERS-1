@@ -1,4 +1,5 @@
         @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+
         :root {
             --bg-color: Black;
             --txt-color: white;
@@ -131,6 +132,7 @@
             position: relative;
             /* right: 20px; */
         }
+
         /* 
         #navbarDropdown.changedColor {
             background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
@@ -142,185 +144,174 @@
         } */
         /* Default button style */
         .nav-link {
-            color: white; /* Default color */
+            color: white;
+            /* Default color */
         }
-        
+
         /* Active button color */
         .nav-link.active {
             background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
             -webkit-background-clip: text;
             background-clip: text;
             color: transparent;
-            font-size: 28px; /* Active color */
+            font-size: 28px;
+            /* Active color */
         }
- /* brand componet css */
-        #brand{
+
+        /* brand componet css */
+        #brand {
             font-size: 45px;
             font-weight: 700px;
             background: linear-gradient(91.09deg, #FB8D48 2.51%, #ED7136 17.52%, #C54E47 32.53%, #C14F49 32.54%, #9D3863 47.55%, #5E1F72 62.56%);
             -webkit-background-clip: text;
             color: transparent;
-            padding-left:0px;
+            padding-left: 0px;
             padding-top: 10px;
-            padding-bottom: 10px; 
+            padding-bottom: 10px;
         }
-        #text{
+
+        #text {
             font-family: Bricolage Grotesque;
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
-            letter-spacing: 0.5px; 
+            letter-spacing: 0.5px;
             max-width: 501px
         }
-        .bt{
+
+        .bt {
             background: linear-gradient(black, black) padding-box, linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%) border-box;
             border: 2px solid transparent;
             color: white;
-            border-radius: 90px; 
+            border-radius: 90px;
             min-width: 238px;
             font-size: 28px;
             padding: 0px;
             text-align: center;
-            min-height:76px;
-        } .brand{ 
+            min-height: 76px;
+        }
+
+        .brand {
             border: 3px dashed rgba(232, 107, 49, 1);
             font-family: Bricolage Grotesque;
             font-size: 45px;
             font-weight: 700;
             line-height: 52px;
             text-align: center;
-            max-width: 222px; 
-        }.title{
-            max-width: 390px; 
-            font-size:45px; 
+            max-width: 222px;
+        }
+
+        .title {
+            max-width: 390px;
+            font-size: 45px;
             font-weight: 600;
         }
 
         /* media qrey */
 
-        @media (max-width: 340px) {
+        @media (max-width:522px) {
+
             /* Your custom styles for small screens */
             #logo {
                 max-width: 100px;
-            }.nav-link.active {
+            }
+
+            .nav-link.active {
                 background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
-                font-size: 19px; /* Active color */
-            } /* brand componet css */
-            #text{
-                align-items: center;
-                font-size: 16px;
-                text-align: center;
-                position: relative;
-                top:90px;
-                font-family: Bricolage Grotesque;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 24px;
-                letter-spacing: 0.5px;
-                text-align: center;
-                
+                font-size: 19px;
             }
-            .brand{
-                    position: relative;
-                    max-width: 172px; 
-                    justify-content: center;
-                    margin-left: 91px;
-                    margin-right: 20px; 
-                    top:40px;
-            }
-            .title {
-                text-align: center;
-                max-width: 390px;
-                font-size: 30px;
-                align-items: center;
-                left: 2px;
-                right:2px;
-                position: relative;
-                top:20px;
-            }
-            .bt{
-                max-width: 159px;
-                align-items: center;
-                position: relative;
-                top:100px;
-                left:54px;
-                right:21px;
-            }.demo2{
-                top:67px;
-                position: relative;
-            }
+
+            /* brand componet css */
+
         }
 
-        @media (max-width:493px) {
+        @media (max-width:430px) {
             body {
                 margin: 0px;
                 margin-top: 21px;
+
             }
+
             .navbar::before {
                 content: "";
                 position: absolute;
                 background: none;
                 border: 2px black;
             }
+
             #logo {
                 max-width: 100px;
             }
+
             .navbar {
                 position: relative;
                 background: none;
-                left:1px;
-                right:-9px;
+                left: 1px;
+                right: -9px;
                 /* margin-left: 40px;
                 margin-right: 0px; */
             }
+
             .container-fluid {
                 position: relative;
                 margin-right: 0px;
                 margin-left: 20px;
+                min-width: 430px;
             }
+
             .navbar-collapse {
                 position: relative;
                 position: relative;
-                left:26px;
-                right:19px;
+                left: 7px;
+                right: 19px;
             }
+
             .navbar-nav {
                 position: relative;
                 border: 3px solid transparent;
                 border-radius: 5px;
                 background: linear-gradient(black, black) padding-box, linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%) border-box;
-                width: 100vh;        
-                padding-left:20px; 
-            
-            }.dropdown-item{
+                width: 100vh;
+                padding-left: 20px;
+
+            }
+
+            .dropdown-item {
                 font-size: 16px;
-            }.dropdown-item{
+            }
+
+            .dropdown-item {
                 padding-left: 10px;
                 padding-right: 20px;
             }
+
             .nav-item {
                 font-size: 24px;
                 font-weight: 400px;
             }
+
             .nav-link {
                 font-size: 24px;
                 font-weight: 400;
                 padding: 0px;
             }
-            .dropdown-menu { 
+
+            .dropdown-menu {
                 padding: 0px;
                 border: 3px solid transparent;
                 border-radius: 5px;
                 background: linear-gradient(black, black) padding-box, linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%) border-box;
                 margin-right: 20px;
             }
+
             #navbarDropdown {
                 font-size: 24px;
                 font-weight: 400px;
             }
+
             /* #navbarDropdown.changedColor {
                 background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
                 -webkit-background-clip: text;
@@ -337,84 +328,125 @@
                 padding-bottom: 10px;
                 max-width: 239px;
             }
+
             .nav-link.active {
                 background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
-                font-size: 19px; /* Active color */
+
+                /* Active color */
             }
+
             /* brand componet css */
-            #text{
-                align-items: center;
-                font-size: 16px;
-                text-align: center;
+            .title {
                 position: relative;
-                top:90px;
+                font-size: 28px;
+                font-weight: 600;
+                text-align: center;
+                max-width: 336px;
+                min-height: 72px;
+                left: 60px;
+                margin-top: 20px;
+            }
+
+            #brand {
+                font-size: 28px;
+                font-weight: 600;
+            }
+
+            .brand {
+                min-width: 200px;
+                position: relative;
+                padding: 0px;
+                left: 116px;
+                margin-top: 20px;
+            }
+
+            #text {
+                position: relative;
                 font-family: Bricolage Grotesque;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 24px;
                 letter-spacing: 0.5px;
                 text-align: center;
-                
+                left: 0px;
+                right: 10px;
+                margin-left: 40px;
+                margin-right: 40px;
+                min-width: 390px;
+                min-height: 96px;
+                margin-top: 20px;
             }
-            .brand{
-                    position: relative;
-                    max-width: 172px; 
-                    justify-content: center;
-                    margin-left: 91px;
-                    margin-right: 20px; 
-                    top:40px;
+
+            .bt {
+                position: relative;
+                font-size: 20px;
+                font-weight: 700;
+                min-width: 190px;
+                left: 40px;
+                margin-top: 20px;
             }
-            .title {
+
+            .componet {
+                display: flex;
+                justify-items: center;
+                max-width: 378px
+            }
+
+            .componet2 {
+                justify-content: center;
+                align-content: center;
                 text-align: center;
-                max-width: 390px;
-                font-size: 30px;
-                align-items: center;
-                left: 2px;
-                right:2px;
-                position: relative;
-                top:20px;
+                min-width: 378px;
+                min-height: 372px;
+                padding-top: 20px;
             }
-            .bt{
-                max-width: 159px;
-                align-items: center;
+
+            #brand_svg {
+                left: 50px;
+                right: 30px;
                 position: relative;
-                top:100px;
-                left:54px;
-                right:21px;
-            }.demo2{
-                top:67px;
-                position: relative;
+                min-width: 355px;
+                margin-top: 20px;
             }
-        } @media (max-width:800px) {
 
-/* brand componet css */
-
+            #arrow {
+                min-width: 28px;
+                height: 20px;
+            }
         }
-        @media(max-width:1040px){
-            .nav-link{
+
+        /* For screens smaller than or equal to 576px (phone view) */
+
+        @media(max-width:1040px) {
+            .nav-link {
                 font-size: 20px;
             }
+
             .nav-link.active {
                 background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
-                font-size: 20px; /* Active color */
+                font-size: 20px;
+                /* Active color */
             }
         }
-        @media(max-width:1140px){
-            .nav-link{
+
+        @media(max-width:1140px) {
+            .nav-link {
                 font-size: 20px;
             }
+
             .nav-link.active {
                 background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
                 -webkit-background-clip: text;
                 background-clip: text;
                 color: transparent;
-                font-size: 20px; /* Active color */
+                
+                /* Active color */
             }
         }
 
@@ -426,4 +458,3 @@
             font-size: 28px;
             font-weight: 800;
         } */
-       
