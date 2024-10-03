@@ -17,7 +17,7 @@
             margin-right: 20px;
             margin-top: 20px;
         }
-
+/* navbar componet  start*/
         .navbar {
             /* padding: 0px;
             margin: 0px; */
@@ -191,12 +191,12 @@
             min-height: 76px;
         }
 
-        .brand {
+        .brand_titel {
             border: 3px dashed rgba(232, 107, 49, 1);
             font-family: Bricolage Grotesque;
             font-size: 45px;
             font-weight: 700;
-            line-height: 52px;
+            line-height: 52px;  
             text-align: center;
             max-width: 222px;
         }
@@ -206,11 +206,104 @@
             font-size: 45px;
             font-weight: 600;
         }
+        /* veritey of servisce strat css */
+    
+         #Services_titel{   
+            border: 3px dashed rgba(232, 107, 49, 1);
+            font-family: Bricolage Grotesque;
+            font-size:45px;
+            font-weight: 700;
+            text-align: center;
+            background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            padding: 0px;
+            max-width: 30%; 
+            position: relative;
+            left:35%;
+            right:35%; 
+            top:-119px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+ 
+    } 
+    .service-section {
+        padding: 0px 0;
+        background-color:black; 
+        margin-left:0px; 
+        margin-right: 0px;
+    }
+  
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap:20px; /* Controls the gap between image and text */
+        max-width: 100%;
+        margin-left:20;
+        margin-right: 20px;
+    }
+  
+    .image-container {
+        flex: 1;
+        text-align: center; /* Centers the image in its container */
+    }
+  
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+  
+    .content-container {
+        flex: 1;
+    }
+  
+    .content-container h1 {
+        font-size: 2.813rem;
+        margin-bottom: 20px; 
+        color: white;
+    }
+  
+    .highlight {
+        background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+  
+    .content-container p {
+        font-size: 1.125rem;
+        line-height: 1.6; color:#ffffff;
+    }
+  
+    /* @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+            text-align: center;
+        }
+  
+        .image-container {
+            margin-bottom: 10px;
+        }
+  
+        .content-container h1 {
+            font-size: 2rem;
+        }
+    }        */
+     /* media qrey  phone view*/
 
-        /* media qrey */
+        
+        
 
-        @media (max-width:522px) {
-
+        @media (max-width:600px) {
+                body
+                {
+                        margin: auto;
+                        display: inline-block;
+                        justify-content: center;
+                        align-items: center;
+                 }
             /* Your custom styles for small screens */
             #logo {
                 max-width: 100px;
@@ -222,19 +315,151 @@
                 background-clip: text;
                 color: transparent;
                 font-size: 19px;
+            } 
+             .title {
+                position: relative;
+                font-size: 39px;
+                font-weight: 600;
+                text-align: center;
+                max-width: 336px;
+                min-height: 72px;
+                margin-top: 20px;margin: auto;
+            }
+
+            #brand {
+                font-size: 29px;
+                font-weight: 600;
+            }
+
+            .brand_titel {
+                min-width: 200px;
+                position: relative;
+                padding: 0px;
+                top:30px;
+                margin: auto;
+            }
+
+            #text {
+                position: relative;
+                font-family: Bricolage Grotesque;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 24px;
+                letter-spacing: 0.5px;
+                text-align: center;
+                min-width: 390px;
+                min-height: 96px;
+                margin: auto; 
+                top:52px;
+            }
+
+            .bt { 
+                position: relative;
+                font-size: 20px;
+                font-weight: 700;
+                min-width: 190px;
+                top: 92px;
+                margin: auto;
+            }
+
+            .first_componet {
+                display: flex;
+                justify-items: center;
+                max-width: 378px;
+                margin: auto;
+            }
+
+            .brand{
+                justify-content: center;
+                align-content: center;
+                text-align: center;
+                min-width: 378px;
+                min-height: 372px;
+                padding-top: 20px;
+                margin: auto;
+            }
+
+            #brand_svg {
+                position: relative;
+                min-width: 355px;
+                margin-top: 20px;
+            }
+
+            #arrow {
+                min-width: 28px;
+                height: 20px;
+            }
+            /* second_componet css */
+            .service-section{
+                display: flex;
+                justify-items: center;
+                max-width: 378px;
+                margin: auto;
+            }
+
+            #l_frame{ 
+                display: none;
+            }
+            .second_componet
+            {margin: auto;
+                position: relative; 
+                top:20px;
+            }
+            #Services_titel 
+            {
+                    font-size: 24px; 
+                    top:90px;
+                    position: relative;
+                    padding: 20px;
+                    max-width: 50%;
+            }h1{
+                font-size: 20px;
+            }.container{
+                position: relative;
+                top:90px;
             }
 
             /* brand componet css */
 
         }
+        /* For screens smaller than or equal to 576px (phone view) */
 
-        @media (max-width:430px) {
-            body {
-                margin: 0px;
-                margin-top: 21px;
-
+        @media(max-width:1040px) {
+            .nav-link {
+                font-size: 20px;
             }
 
+            .nav-link.active {
+                background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                font-size: 20px;
+                /* Active color */
+            }
+        }
+
+        @media(max-width:1140px) {
+            .nav-link {
+                font-size: 20px;
+            }
+
+            .nav-link.active {
+                background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                
+                /* Active color */
+            }
+        } @media (max-width:430px) {
+            body {
+                margin: auto;
+                display: inline-block;
+                justify-content: center;
+                align-items: center;
+            }
+ /* navbar componet css start */
             .navbar::before {
                 content: "";
                 position: absolute;
@@ -338,7 +563,7 @@
                 /* Active color */
             }
 
-            /* brand componet css */
+            /* brand componet start css */
             .title {
                 position: relative;
                 font-size: 28px;
@@ -346,7 +571,6 @@
                 text-align: center;
                 max-width: 336px;
                 min-height: 72px;
-                left: 60px;
                 margin-top: 20px;
             }
 
@@ -355,11 +579,10 @@
                 font-weight: 600;
             }
 
-            .brand {
+            .brand_titel {
                 min-width: 200px;
                 position: relative;
                 padding: 0px;
-                left: 116px;
                 margin-top: 20px;
             }
 
@@ -371,10 +594,6 @@
                 line-height: 24px;
                 letter-spacing: 0.5px;
                 text-align: center;
-                left: 0px;
-                right: 10px;
-                margin-left: 40px;
-                margin-right: 40px;
                 min-width: 390px;
                 min-height: 96px;
                 margin-top: 20px;
@@ -385,17 +604,17 @@
                 font-size: 20px;
                 font-weight: 700;
                 min-width: 190px;
-                left: 40px;
                 margin-top: 20px;
             }
 
-            .componet {
+            .first_componet {
                 display: flex;
                 justify-items: center;
-                max-width: 378px
+                max-width: 378px;
+                margin: auto;
             }
 
-            .componet2 {
+            .brand{
                 justify-content: center;
                 align-content: center;
                 text-align: center;
@@ -405,8 +624,6 @@
             }
 
             #brand_svg {
-                left: 50px;
-                right: 30px;
                 position: relative;
                 min-width: 355px;
                 margin-top: 20px;
@@ -417,38 +634,8 @@
                 height: 20px;
             }
         }
+        
 
-        /* For screens smaller than or equal to 576px (phone view) */
-
-        @media(max-width:1040px) {
-            .nav-link {
-                font-size: 20px;
-            }
-
-            .nav-link.active {
-                background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
-                -webkit-background-clip: text;
-                background-clip: text;
-                color: transparent;
-                font-size: 20px;
-                /* Active color */
-            }
-        }
-
-        @media(max-width:1140px) {
-            .nav-link {
-                font-size: 20px;
-            }
-
-            .nav-link.active {
-                background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
-                -webkit-background-clip: text;
-                background-clip: text;
-                color: transparent;
-                
-                /* Active color */
-            }
-        }
 
         /* .nav-link:focus {
             background: linear-gradient(91.11deg, #FB8D48 2.53%, #ED7136 21.88%, #C54E47 41.22%, #C14F49 41.23%, #9D3863 60.58%, #5E1F72 79.93%);
@@ -458,3 +645,4 @@
             font-size: 28px;
             font-weight: 800;
         } */
+      
